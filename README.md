@@ -7,10 +7,10 @@
 4. Keras
 5. numpy
 6. matplot
-'''
+''''
 import numpy as np
 import tensorflow as tf
-'''
+''''
 ## How to use
 1. activate Anaconda virtualenvironment.
 2. Run the jupyter notebook.
