@@ -4,8 +4,8 @@
 2. Python 3.6.x
 3. jupyter notebook
 3. Tensorflow 1.14
-4. Keras
-5. numpy
+4. Keras 2.2.4
+5. numpy 1.16.2
 6. matplot
 ````python
 import numpy as np
