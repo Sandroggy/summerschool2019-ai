@@ -15,6 +15,6 @@ import matplotlib.pyplot as plt
 ## How to use
 1. activate Anaconda virtualenvironment.
 2. Run the jupyter notebook.
-3. Run Exo.ipnyb.
+3. Run Exo.ipynb.
 4. You can modify second block your own dataset about Exoplanet.
 5. Run!
