@@ -6,7 +6,7 @@
 3. Tensorflow 1.14
 4. Keras 2.2.4
 5. numpy 1.16.2
-6. matplot
+6. matplot 3.1.0
 ````python
 import numpy as np
 import tensorflow as tf
