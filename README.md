@@ -22,8 +22,8 @@ import matplotlib.pyplot as plt
 ## Results
 We got 99.12% accuracy on the test dataset
 
-### Things we've try to improve
-1. Add an initializer to initialize every weight to a random number before training instead of 0 as first value.
+### Things we've tried to improve
+1. Add an initializer to initialize every weight to a random number before training instead of 0 as default value.
   ````python
   tf.keras.initializers.RandomUniform(minval=-500, maxval=500, seed=None)
   ````
