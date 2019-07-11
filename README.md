@@ -4,11 +4,9 @@
 2. Python 3.6.x
 3. jupyter notebook
 4. Tensorflow 1.14
-<<<<<<< HEAD
-4. Keras 2.2.4
-5. numpy 1.16.2
-6. matplot 3.1.0
->>>>>>> 7fffec5beb8bc821a72c0c3616ef9de8901655d9
+5. Keras 2.2.4
+6. numpy 1.16.2
+7. matplot 3.1.0
 ````python
 import numpy as np
 import tensorflow as tf
