@@ -24,14 +24,16 @@ We got 99.12% accuracy on the test dataset
 
 ### Things we've try to improve
 1. Add an initializer to initialize every weight to a random number before training instead of 0 as first value.
-  tf.keras.initializers.RandomUniform(minval=-500, maxval=500, seed=None)
+  ```tf.keras.initializers.RandomUniform(minval=-500, maxval=500, seed=None)```
 2. Playing with the optimizer by lowering the learning rate.
-  optimizer=(tf.keras.optimizers.Adagrad(lr=0.02, epsilon=None, decay=0.0)
+  ```optimizer=(tf.keras.optimizers.Adagrad(lr=0.02, epsilon=None, decay=0.0)```
 3. Make more epochs with larger batches.
-  model.fit(data_train, label_train, validation_split=0.1, batch_size=100, epochs=5)
+  ```model.fit(data_train, label_train, validation_split=0.1, batch_size=100, epochs=5)```
 4. Make a deeper network with more layers. and changing the activation function.
+  ````
   tf.keras.layers.Dense(512, activation=tf.nn.relu),
   tf.keras.layers.Dense(64, activation=tf.nn.sigmoid),
   tf.keras.layers.Dense(2, activation=tf.nn.sigmoid)
+  ````
 5. Add dropout layers, it prevent for overfitting while allowing for better training.
-  tf.keras.layers.Dropout(0.5)
+  ```tf.keras.layers.Dropout(0.5)```
