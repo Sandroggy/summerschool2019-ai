@@ -45,3 +45,19 @@ We got 99.12% accuracy on the test dataset
   ````python
   tf.keras.layers.Dropout(0.5)
   ````
+
+### Things you could try to improve
+1. Change the loss function.
+  ````python
+  loss='binary_crossentropy
+  ````
+2. Change/Tweak the optimizer.
+  ````python
+  optimizer=(tf.keras.optimizers.Adagrad(lr=0.02, epsilon=None, decay=0.0)
+  ````
+3. Trying other type of network.
+  ````python
+  tf.keras.layers.Dense(512, activation=tf.nn.relu),
+  tf.keras.layers.Dense(64, activation=tf.nn.sigmoid),
+  tf.keras.layers.Dense(2, activation=tf.nn.sigmoid)
+  ````
