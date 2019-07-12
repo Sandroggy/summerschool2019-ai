@@ -61,3 +61,4 @@ We got 99.12% accuracy on the test dataset
   tf.keras.layers.Dense(64, activation=tf.nn.sigmoid),
   tf.keras.layers.Dense(2, activation=tf.nn.sigmoid)
   ````
+  
