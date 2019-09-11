@@ -12,6 +12,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 ````
+8. Dataset: https://www.kaggle.com/keplersmachines/kepler-labelled-time-series-data
 ## How to use
 1. activate virtualenvironment with package management system such as pip or anaconda.
 2. Run the jupyter notebook.
